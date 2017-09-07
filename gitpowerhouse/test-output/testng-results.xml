@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6659" started-at="2017-09-07T04:35:31Z" finished-at="2017-09-07T04:35:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6659" started-at="2017-09-07T04:35:31Z" finished-at="2017-09-07T04:35:37Z">
+      <class name="com.powerhouse.testcases.RegistrationAndLogin">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.powerhouse.testcases.RegistrationAndLogin@1bce4f0a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-07T10:05:31Z" finished-at="2017-09-07T10:05:31Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@26abb146, version=, platform=ANY, firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@72c8e7b}], required capabilities = Capabilities [{}]
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'USER-PC', ip: '192.168.1.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@26abb146, version=, platform=ANY, firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@72c8e7b}], required capabilities = Capabilities [{}]
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'USER-PC', ip: '192.168.1.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:293)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:272)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:267)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:263)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:122)
+	at com.powerhouse.testcases.RegistrationAndLogin.beforeClass(RegistrationAndLogin.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="loginPowerhouse()[pri:0, instance:com.powerhouse.testcases.RegistrationAndLogin@1bce4f0a]" name="loginPowerhouse" duration-ms="1" started-at="2017-09-07T10:05:37Z" finished-at="2017-09-07T10:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPowerhouse -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.powerhouse.testcases.RegistrationAndLogin@1bce4f0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-09-07T10:05:37Z" finished-at="2017-09-07T10:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.powerhouse.testcases.RegistrationAndLogin@1bce4f0a]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-07T10:05:37Z" finished-at="2017-09-07T10:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.powerhouse.testcases.RegistrationAndLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
